@@ -1,3 +1,7 @@
+.body{
+    background-color: #D3D4D9;
+}
+
 #card1 {
     display: flex;
     flex-direction: row;
@@ -9,20 +13,23 @@
 .square {
     width: 5rem;
     height: 5rem;
-    background-color: blue;
+    background-color: #4b88a2;
     margin: 1rem;
+    margin-left: 4rem;
 }
 
 input[type="search"] {
     width: 30%;
     text-align: center;
+    background-color: #D3D4D9;
 }
 
 #rightSquare {
     width: 5rem;
     height: 5rem;
     margin: 1rem;
-    background-color: azure;
+    margin-right: 3rem;
+    background-color: #D3D4D9;
     position: relative;
     /* Positioning parent for pseudo-elements */
 }
@@ -57,22 +64,30 @@ input[type="search"] {
     /* Position of the third line */
 }
 
+#card2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 
-
-
-
+.mainPart {
+    background-color: #FFF9FB;
+    width: 80%;
+    
+}
 
 .rectangle {
 
-    width: 5rem;
-    height: 20rem;
-    background-color: cadetblue;
+    width: 10rem;
+    height: 30rem;
+    background-color: #4b88a2;
     margin: 1rem;
 }
 
 #middleSquare {
     width: 10rem;
     height: 8rem;
-    background-color: aqua;
+    background-color: #4b88a2;
     margin: 0, 5rem;
 }
