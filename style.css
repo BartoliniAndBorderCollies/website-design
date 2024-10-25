@@ -1,0 +1,78 @@
+#card1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.square {
+    width: 5rem;
+    height: 5rem;
+    background-color: blue;
+    margin: 1rem;
+}
+
+input[type="search"] {
+    width: 30%;
+    text-align: center;
+}
+
+#rightSquare {
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    background-color: azure;
+    position: relative;
+    /* Positioning parent for pseudo-elements */
+}
+
+#rightSquare::before,
+#rightSquare::after {
+    content: "";
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    height: 0.1rem;
+    background-color: black;
+}
+
+#rightSquare::before {
+    top: 20%;
+    /* Position of the first line */
+}
+
+#rightSquare .middle-line {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 50%;
+    height: 0.1rem;
+    background-color: black;
+    transform: translateY(-50%); /* Centers the line vertically */
+}
+
+#rightSquare::after {
+    top: 80%;
+    /* Position of the third line */
+}
+
+
+
+
+
+
+.rectangle {
+
+    width: 5rem;
+    height: 20rem;
+    background-color: cadetblue;
+    margin: 1rem;
+}
+
+#middleSquare {
+    width: 10rem;
+    height: 8rem;
+    background-color: aqua;
+    margin: 0, 5rem;
+}
