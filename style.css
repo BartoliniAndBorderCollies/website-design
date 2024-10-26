@@ -67,13 +67,16 @@ input[type="search"] {
 #card2 {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
+    height: 30rem;
 }
 
 .mainPart {
     background-color: #FFF9FB;
     width: 80%;
+    height: 100%;
+    margin: 1rem;
     
 }
 
@@ -89,5 +92,19 @@ input[type="search"] {
     width: 10rem;
     height: 8rem;
     background-color: #4b88a2;
-    margin: 0, 5rem;
+    margin-right: 1rem;
+}
+
+#upperText{
+    margin: 1rem;
+    color: #252627;
+}
+
+.middleContent {
+    display: flex;
+    margin: 1rem;
+}
+
+#middleText{
+    flex: 1rem;
 }
