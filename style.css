@@ -69,7 +69,6 @@ input[type="search"] {
     flex-direction: row;
     align-items: stretch;
     justify-content: space-between;
-    height: 35rem;
 }
 
 .mainPart {
@@ -79,11 +78,9 @@ input[type="search"] {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 .rectangle {
-
     width: 10rem;
     background-color: #4b88a2;
     margin: 1rem;
