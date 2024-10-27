@@ -69,7 +69,7 @@ input[type="search"] {
     flex-direction: row;
     align-items: stretch;
     justify-content: space-between;
-    height: 33rem;
+    height: 35rem;
 }
 
 .mainPart {
@@ -99,6 +99,24 @@ input[type="search"] {
 #upperText{
     margin: 1rem;
     color: #252627;
+}
+
+#upperText::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 0.05rem;
+    background-color: black;
+    margin: 2.5rem auto 1rem auto;
+}
+
+#lowerText::before {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 0.05rem;
+    background-color: black;
+    margin: 1rem auto 2.5rem auto; /* Extra top margin to lower the line */
 }
 
 .middleContent {
